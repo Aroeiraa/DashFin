@@ -1,76 +1,40 @@
 # 💰 DashFin - Dashboard Financeiro Pessoal
 
-DashFin é um aplicativo de **dashboard financeiro pessoal** que ajuda você a gerenciar suas finanças de forma simples, visual e eficiente. Com ele, você pode adicionar transações, visualizar gráficos interativos e acompanhar seus ganhos, despesas e saldo em tempo real.
+**DashFin** é um aplicativo web que ajuda você a gerenciar suas finanças de forma **simples, intuitiva e visual**. Acompanhe seus ganhos, despesas, metas e saldo através de gráficos interativos e filtros personalizados.
 
 ---
 
-## 🚀 Funcionalidades
+## ✨ Funcionalidades
 
-### 📊 **Gráficos Interativos**
-- Visualize **ganhos** e **despesas** categorizados em gráficos de pizza.
-- Cores distintas para ganhos e despesas, facilitando a identificação.
-- Gráficos atualizados automaticamente com base nas transações adicionadas.
+- 🔄 **CRUD de Transações**  
+  Adicione, edite e remova transações de ganhos ou despesas.
 
-### 🔍 **Filtros Avançados**
-- Filtre transações e gráficos por **mês** e **ano**.
-- Botão para **limpar filtros** e exibir todos os dados novamente.
+- 📊 **Gráficos Interativos**  
+  Visualize suas finanças com gráficos de pizza organizados por categoria.
 
-### 📝 **Gerenciamento de Transações**
-- Adicione transações de **ganhos** e **despesas** com descrição, valor, categoria e data.
-- Visualize uma lista detalhada de todas as transações.
-- Remova transações indesejadas com um clique.
+- 🎯 **Filtros Avançados**  
+  Filtre por mês e ano, ou limpe os filtros para visualizar tudo novamente.
 
-### 📈 **Resumo Financeiro**
-- Exibição clara do total de **ganhos**, **despesas** e **saldo**.
-- Destaque visual para saldo positivo ou negativo.
+- 🧾 **Resumo Financeiro**  
+  Veja um resumo com total de ganhos, despesas e o saldo atual.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React**: Biblioteca para construção da interface do usuário.
-- **Recharts**: Biblioteca para criação de gráficos interativos.
-- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
-- **LocalStorage**: Persistência de dados no navegador.
+- ⚛️ **React** — Interface moderna e responsiva
+- 🎨 **Tailwind CSS** — Estilização rápida e elegante
+- 📈 **Recharts** — Gráficos bonitos e responsivos
+- 💾 **LocalStorage / JSON Server** — Persistência de dados local e fake API REST
 
 ---
 
-## 🖥️ Como Executar o Projeto
+## 🔌 Back-end com JSON Server
 
-1. **Clone o repositório**:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd dinheiro-guardado
-   ```
+O projeto usa um arquivo `db.json` como banco de dados local e um servidor simulado com o **json-server**.
 
-2. **Instale as dependências**:
-   ```bash
-   npm install
-   ```
+### ➤ Instalar o JSON Server
 
-3. **Inicie o servidor de desenvolvimento**:
-   ```bash
-   npm start
-   ```
-
-4. **Acesse o aplicativo**:
-   - Abra o navegador e acesse: `http://localhost:3000`
-
----
-
-## 🧭 Como Usar
-
-1. **Adicionar Transações**:
-   - Preencha o formulário com o valor, tipo (ganho ou despesa), categoria e data.
-   - Clique no botão **Adicionar**.
-
-2. **Visualizar Gráficos**:
-   - Os gráficos de ganhos e despesas são atualizados automaticamente com base nas transações adicionadas.
-
-3. **Aplicar Filtros**:
-   - Use os campos de **mês** e **ano** para filtrar os dados exibidos nos gráficos.
-   - Clique em **Limpar Filtros** para exibir todos os dados novamente.
-
-4. **Gerenciar Transações**:
-   - Visualize a lista de transações na página principal.
-   - Clique no botão **✖** para remover uma transação.
+```bash
+npm install -g json-server
+json-server --watch db.json --port 3001
