@@ -1,0 +1,68 @@
+{
+  "transacoes": [
+    {
+      "id": 1,
+      "tipo": "Ganho",
+      "descricao": "Salário",
+      "valor": 3000,
+      "categoria": "Trabalho",
+      "data": "2025-07-01"
+    },
+    {
+      "id": 2,
+      "tipo": "despesa",
+      "descricao": "Supermercado",
+      "valor": 500,
+      "categoria": "Alimentação",
+      "data": "2025-07-03"
+    },
+    {
+      "id": 3,
+      "tipo": "despesa",
+      "descricao": "Aluguel",
+      "valor": 1200,
+      "categoria": "Moradia",
+      "data": "2025-07-05"
+    },
+    {
+      "id": 4,
+      "tipo": "Ganho",
+      "descricao": "Freelance",
+      "valor": 800,
+      "categoria": "Trabalho",
+      "data": "2025-07-10"
+    },
+    {
+      "id": 5,
+      "tipo": "despesa",
+      "descricao": "Academia",
+      "valor": 150,
+      "categoria": "Saúde",
+      "data": "2025-07-12"
+    },
+    {
+      "id": 6,
+      "tipo": "despesa",
+      "descricao": "Cinema",
+      "valor": 100,
+      "categoria": "Lazer",
+      "data": "2025-07-15"
+    },
+    {
+      "id": 7,
+      "tipo": "Ganho",
+      "descricao": "Investimento",
+      "valor": 500,
+      "categoria": "Financeiro",
+      "data": "2025-07-20"
+    },
+    {
+      "id": 8,
+      "tipo": "despesa",
+      "descricao": "Transporte",
+      "valor": 200,
+      "categoria": "Transporte",
+      "data": "2025-07-22"
+    }
+  ]
+}
