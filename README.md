@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 💰 DashFin - Dashboard Financeiro Pessoal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DashFin é um aplicativo de **dashboard financeiro pessoal** que ajuda você a gerenciar suas finanças de forma simples, visual e eficiente. Com ele, você pode adicionar transações, visualizar gráficos interativos e acompanhar seus ganhos, despesas e saldo em tempo real.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+### 📊 **Gráficos Interativos**
+- Visualize **ganhos** e **despesas** categorizados em gráficos de pizza.
+- Cores distintas para ganhos e despesas, facilitando a identificação.
+- Gráficos atualizados automaticamente com base nas transações adicionadas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔍 **Filtros Avançados**
+- Filtre transações e gráficos por **mês** e **ano**.
+- Botão para **limpar filtros** e exibir todos os dados novamente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📝 **Gerenciamento de Transações**
+- Adicione transações de **ganhos** e **despesas** com descrição, valor, categoria e data.
+- Visualize uma lista detalhada de todas as transações.
+- Remova transações indesejadas com um clique.
 
-### `npm test`
+### 📈 **Resumo Financeiro**
+- Exibição clara do total de **ganhos**, **despesas** e **saldo**.
+- Destaque visual para saldo positivo ou negativo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Biblioteca para construção da interface do usuário.
+- **Recharts**: Biblioteca para criação de gráficos interativos.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **LocalStorage**: Persistência de dados no navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖥️ Como Executar o Projeto
 
-### `npm run eject`
+1. **Clone o repositório**:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd dinheiro-guardado
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Inicie o servidor de desenvolvimento**:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Acesse o aplicativo**:
+   - Abra o navegador e acesse: `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧭 Como Usar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Adicionar Transações**:
+   - Preencha o formulário com o valor, tipo (ganho ou despesa), categoria e data.
+   - Clique no botão **Adicionar**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Visualizar Gráficos**:
+   - Os gráficos de ganhos e despesas são atualizados automaticamente com base nas transações adicionadas.
 
-### Code Splitting
+3. **Aplicar Filtros**:
+   - Use os campos de **mês** e **ano** para filtrar os dados exibidos nos gráficos.
+   - Clique em **Limpar Filtros** para exibir todos os dados novamente.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Gerenciar Transações**:
+   - Visualize a lista de transações na página principal.
+   - Clique no botão **✖** para remover uma transação.
